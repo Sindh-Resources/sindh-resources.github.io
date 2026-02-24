@@ -1,10 +1,12 @@
 # Sindh Resources
 
-Official resource portal for Government of Sindh schools and departments.
+A helpful resource portal for Sindh schools and employees.
 
 ## About
 
-This website serves as a central repository for essential documents, forms, and resources for employees and institutions under the Government of Sindh. The portal aims to streamline administrative processes by providing easy access to frequently needed documents.
+This website serves as a helpful repository of documents, forms, and resources for educators and employees working in Sindh. Created by a JEST (Junior Elementary School Teacher) to help fellow colleagues by providing easy access to frequently needed documents.
+
+**Note:** This is not an official government website.
 
 ## Current Resources
 
@@ -23,6 +25,6 @@ This website serves as a central repository for essential documents, forms, and 
 
 Visit [https://sindh-resources.github.io](https://sindh-resources.github.io) to access all resources.
 
-## License
+## Credits
 
-© 2026 Government of Sindh. All rights reserved.
+Created by a JEST to help fellow educators and employees. This is not an official government website.
