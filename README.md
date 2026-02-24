@@ -10,16 +10,25 @@ This website serves as a helpful repository of documents, forms, and resources f
 
 ## Current Resources
 
+### Accounts Office
 - **Difference Bill (TR-22)**: Official form for Accountant General Sindh
 - **Difference Bill Cover Letter**: Template for submission
 - **FO2 Form**: FO2 form for Accountant General Sindh
+
+### SELD - Past Papers
+- **Class 4 Past Papers**: Question papers for Class 4
+- **Class 5 Past Papers**: Question papers for Class 5
+- **Class 6 Past Papers**: Question papers for Class 6
+- **Class 7 Past Papers**: Question papers for Class 7
+- **Class 8 Past Papers**: Question papers for Class 8
 
 ## Features
 
 - Clean, professional design using official Sindh Government branding
 - Mobile-responsive layout
 - Easy document downloads
-- Compact and user-friendly interface
+- Organized by sections for easy navigation
+- Compact design to accommodate many documents
 - Professional Inter font for optimal readability
 
 ## Usage

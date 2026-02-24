@@ -7,7 +7,7 @@
     <title>Sindh Resources</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -17,7 +17,7 @@
 
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-            line-height: 1.6;
+            line-height: 1.5;
             color: #2c3e50;
             background: #f5f7fa;
             min-height: 100vh;
@@ -26,147 +26,150 @@
         .header {
             background: linear-gradient(135deg, #0a5c36 0%, #0e7040 100%);
             color: white;
-            padding: 30px 20px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
         }
 
         .header-content {
-            max-width: 1100px;
+            max-width: 1200px;
             margin: 0 auto;
             display: flex;
             align-items: center;
-            gap: 25px;
-        }
-
-        .logo-container {
-            flex-shrink: 0;
+            gap: 20px;
         }
 
         .logo {
-            width: 80px;
-            height: 80px;
+            width: 60px;
+            height: 60px;
             background: white;
             border-radius: 50%;
-            padding: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        .header-text {
-            flex-grow: 1;
+            padding: 6px;
+            flex-shrink: 0;
         }
 
         .header-text h1 {
-            font-size: 1.8rem;
+            font-size: 1.5rem;
             font-weight: 700;
-            margin-bottom: 5px;
-            letter-spacing: -0.5px;
+            margin-bottom: 3px;
         }
 
         .header-text p {
-            font-size: 0.95rem;
+            font-size: 0.85rem;
             opacity: 0.95;
-            font-weight: 300;
+            font-weight: 400;
         }
 
         .container {
-            max-width: 1100px;
+            max-width: 1200px;
             margin: 0 auto;
-            padding: 40px 20px;
+            padding: 25px 20px;
         }
 
         .intro-section {
             background: white;
-            border-radius: 12px;
-            padding: 30px;
-            margin-bottom: 30px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-            border-left: 4px solid #0a5c36;
-        }
-
-        .intro-section h2 {
-            color: #0a5c36;
-            font-size: 1.5rem;
-            font-weight: 600;
-            margin-bottom: 12px;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 25px;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+            border-left: 3px solid #0a5c36;
         }
 
         .intro-section p {
             color: #5a6c7d;
-            font-size: 1rem;
-            line-height: 1.7;
+            font-size: 0.9rem;
+            line-height: 1.6;
         }
 
-        .resources-section {
+        .section {
             background: white;
-            border-radius: 12px;
-            padding: 35px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
         }
 
-        .resources-section h2 {
-            color: #0a5c36;
-            font-size: 1.6rem;
-            font-weight: 600;
-            margin-bottom: 25px;
+        .section-header {
             display: flex;
             align-items: center;
             gap: 10px;
+            margin-bottom: 18px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid #e8f5f0;
+        }
+
+        .section-icon {
+            font-size: 1.5rem;
+        }
+
+        .section-title {
+            color: #0a5c36;
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin: 0;
         }
 
         .resource-grid {
             display: grid;
-            gap: 15px;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 12px;
         }
 
         .resource-card {
             background: linear-gradient(135deg, #0a5c36 0%, #0e7040 100%);
-            border-radius: 10px;
-            padding: 20px 25px;
+            border-radius: 8px;
+            padding: 14px 16px;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            transition: all 0.3s ease;
-            box-shadow: 0 2px 6px rgba(10, 92, 54, 0.2);
+            transition: all 0.25s ease;
             text-decoration: none;
             color: white;
-            gap: 15px;
+            gap: 12px;
+            box-shadow: 0 2px 4px rgba(10, 92, 54, 0.2);
         }
 
         .resource-card:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 6px 16px rgba(10, 92, 54, 0.35);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(10, 92, 54, 0.3);
         }
 
         .resource-info {
             flex-grow: 1;
+            min-width: 0;
         }
 
         .resource-card h3 {
-            font-size: 1.1rem;
+            font-size: 0.95rem;
             font-weight: 600;
-            margin-bottom: 5px;
+            margin-bottom: 3px;
             color: white;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
 
         .resource-card p {
-            font-size: 0.85rem;
+            font-size: 0.75rem;
             opacity: 0.9;
-            font-weight: 300;
+            font-weight: 400;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
 
         .download-btn {
             background: rgba(255, 255, 255, 0.2);
-            border: 2px solid white;
-            padding: 10px 20px;
-            border-radius: 8px;
-            font-size: 0.9rem;
+            border: 1.5px solid white;
+            padding: 8px 14px;
+            border-radius: 6px;
+            font-size: 0.8rem;
             font-weight: 600;
             color: white;
+            white-space: nowrap;
+            transition: all 0.25s ease;
             display: flex;
             align-items: center;
-            gap: 8px;
-            white-space: nowrap;
-            transition: all 0.3s ease;
+            gap: 6px;
         }
 
         .resource-card:hover .download-btn {
@@ -175,84 +178,93 @@
         }
 
         .download-icon {
-            font-size: 1.2rem;
-        }
-
-        .footer {
-            text-align: center;
-            padding: 30px 20px;
-            margin-top: 40px;
-            color: #7f8c8d;
-            font-size: 0.9rem;
-            border-top: 1px solid #e0e6ed;
+            font-size: 1rem;
         }
 
         .badge {
             display: inline-block;
-            background: #e8f5f0;
-            color: #0a5c36;
-            padding: 4px 12px;
-            border-radius: 20px;
-            font-size: 0.8rem;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 0.7rem;
             font-weight: 600;
-            margin-top: 8px;
+            margin-left: 6px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 25px 20px;
+            margin-top: 30px;
+            color: #7f8c8d;
+            font-size: 0.85rem;
+            border-top: 1px solid #e0e6ed;
+        }
+
+        .footer p + p {
+            margin-top: 6px;
         }
 
         @media (max-width: 768px) {
             .header {
-                padding: 25px 15px;
-            }
-
-            .header-content {
-                gap: 15px;
+                padding: 18px 15px;
             }
 
             .logo {
-                width: 60px;
-                height: 60px;
+                width: 50px;
+                height: 50px;
             }
 
             .header-text h1 {
-                font-size: 1.3rem;
+                font-size: 1.2rem;
             }
 
             .header-text p {
-                font-size: 0.85rem;
+                font-size: 0.8rem;
             }
 
             .container {
-                padding: 25px 15px;
+                padding: 20px 15px;
             }
 
-            .intro-section,
-            .resources-section {
-                padding: 20px;
+            .intro-section {
+                padding: 16px;
+                margin-bottom: 20px;
             }
 
-            .resources-section h2 {
-                font-size: 1.3rem;
+            .section {
+                padding: 20px 16px;
+            }
+
+            .section-title {
+                font-size: 1.1rem;
+            }
+
+            .resource-grid {
+                grid-template-columns: 1fr;
             }
 
             .resource-card {
-                flex-direction: column;
-                align-items: flex-start;
-                padding: 18px 20px;
+                padding: 12px 14px;
+            }
+
+            .resource-card h3 {
+                font-size: 0.9rem;
             }
 
             .download-btn {
-                width: 100%;
-                justify-content: center;
+                padding: 7px 12px;
+                font-size: 0.75rem;
             }
         }
 
         @media (max-width: 480px) {
             .header-content {
-                flex-direction: column;
-                text-align: center;
+                gap: 12px;
             }
 
-            .header-text h1 {
-                font-size: 1.2rem;
+            .logo {
+                width: 45px;
+                height: 45px;
             }
         }
     </style>
@@ -260,9 +272,7 @@
 <body>
     <header class="header">
         <div class="header-content">
-            <div class="logo-container">
-                <img src="sindhgovtlogo.png" alt="Sindh Logo" class="logo">
-            </div>
+            <img src="sindhgovtlogo.png" alt="Sindh Logo" class="logo">
             <div class="header-text">
                 <h1>Sindh Resources</h1>
                 <p>Helpful resource portal for Sindh schools and employees</p>
@@ -272,46 +282,102 @@
 
     <div class="container">
         <section class="intro-section">
-            <h2>Welcome</h2>
             <p>This portal provides helpful resources and documents for employees working in Sindh. Download forms, guidelines, and templates to help with administrative processes.</p>
         </section>
 
-        <section class="resources-section">
-            <h2>📥 Available Resources</h2>
+        <!-- Accounts Office Section -->
+        <section class="section">
+            <div class="section-header">
+                <span class="section-icon">💼</span>
+                <h2 class="section-title">Accounts Office</h2>
+            </div>
             <div class="resource-grid">
                 <a href="resources/Difference Bill (TR-22).pdf" class="resource-card" download>
                     <div class="resource-info">
                         <h3>Difference Bill (TR-22)</h3>
-                        <p>Official TR-22 form for Accountant General Sindh</p>
-                        <span class="badge">PDF</span>
+                        <p>TR-22 form for AG Sindh</p>
                     </div>
                     <div class="download-btn">
                         <span class="download-icon">⬇</span>
-                        <span>Download</span>
                     </div>
                 </a>
 
                 <a href="resources/Difference Bill Cover Letter.pdf" class="resource-card" download>
                     <div class="resource-info">
-                        <h3>Difference Bill Cover Letter</h3>
-                        <p>Cover letter template for difference bill submission</p>
-                        <span class="badge">PDF</span>
+                        <h3>Cover Letter</h3>
+                        <p>Difference bill cover letter</p>
                     </div>
                     <div class="download-btn">
                         <span class="download-icon">⬇</span>
-                        <span>Download</span>
                     </div>
                 </a>
 
                 <a href="resources/FO2-Form.pdf" class="resource-card" download>
                     <div class="resource-info">
                         <h3>FO2 Form</h3>
-                        <p>FO2 form for Accountant General Sindh</p>
-                        <span class="badge">PDF</span>
+                        <p>FO2 form for AG Sindh</p>
                     </div>
                     <div class="download-btn">
                         <span class="download-icon">⬇</span>
-                        <span>Download</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- SELD Past Papers Section -->
+        <section class="section">
+            <div class="section-header">
+                <span class="section-icon">📚</span>
+                <h2 class="section-title">SELD - Past Papers</h2>
+            </div>
+            <div class="resource-grid">
+                <a href="resources/Class 4 - Past Papers.pdf" class="resource-card" download>
+                    <div class="resource-info">
+                        <h3>Class 4 Past Papers</h3>
+                        <p>Question papers for Class 4</p>
+                    </div>
+                    <div class="download-btn">
+                        <span class="download-icon">⬇</span>
+                    </div>
+                </a>
+
+                <a href="resources/Class 5 - Past Papers.pdf" class="resource-card" download>
+                    <div class="resource-info">
+                        <h3>Class 5 Past Papers</h3>
+                        <p>Question papers for Class 5</p>
+                    </div>
+                    <div class="download-btn">
+                        <span class="download-icon">⬇</span>
+                    </div>
+                </a>
+
+                <a href="resources/Class 6 - Past Papers.pdf" class="resource-card" download>
+                    <div class="resource-info">
+                        <h3>Class 6 Past Papers</h3>
+                        <p>Question papers for Class 6</p>
+                    </div>
+                    <div class="download-btn">
+                        <span class="download-icon">⬇</span>
+                    </div>
+                </a>
+
+                <a href="resources/Class 7 - Past Papers.pdf" class="resource-card" download>
+                    <div class="resource-info">
+                        <h3>Class 7 Past Papers</h3>
+                        <p>Question papers for Class 7</p>
+                    </div>
+                    <div class="download-btn">
+                        <span class="download-icon">⬇</span>
+                    </div>
+                </a>
+
+                <a href="resources/Class 8 - Past Papers.pdf" class="resource-card" download>
+                    <div class="resource-info">
+                        <h3>Class 8 Past Papers</h3>
+                        <p>Question papers for Class 8</p>
+                    </div>
+                    <div class="download-btn">
+                        <span class="download-icon">⬇</span>
                     </div>
                 </a>
             </div>
@@ -320,7 +386,7 @@
 
     <footer class="footer">
         <p>Created by a JEST to help fellow educators and employees</p>
-        <p style="margin-top: 8px; font-size: 0.85rem; color: #95a5a6;">This is not an official government website</p>
+        <p style="font-size: 0.8rem; color: #95a5a6;">This is not an official government website</p>
     </footer>
 </body>
 </html>
