@@ -22,6 +22,15 @@ This website serves as a helpful repository of documents, forms, and resources f
 - **Class 7 Past Papers**: Question papers for Class 7
 - **Class 8 Past Papers**: Question papers for Class 8
 
+### PST JEST 2021 - Service Continuation
+- **PST-JEST Advertisement**: Official recruitment advertisement
+- **Checklist**: Requirements checklist
+- **Pay Protection Proforma**: Pay protection case form
+- **Application to Secretary**: Application template
+- **Certificates**: Certificate templates
+- **Data of Newly Appointed**: Excel data template
+- **Service Certificate**: Service certificate template
+
 ## Features
 
 - Clean, professional design using official Sindh Government branding
@@ -30,6 +39,7 @@ This website serves as a helpful repository of documents, forms, and resources f
 - Organized by sections for easy navigation
 - Compact design to accommodate many documents
 - Professional Inter font for optimal readability
+- Free, non-profit, no ads
 
 ## Usage
 
