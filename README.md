@@ -1,31 +1,28 @@
 # Sindh Resources
 
-Welcome to Sindh Resources official website repository.
+Official resource portal for Government of Sindh schools and departments.
 
 ## About
 
-This repository contains the website for Sindh Resources, showcasing our commitment to excellence in resources and innovation.
+This website serves as a central repository for essential documents, forms, and resources for employees and institutions under the Government of Sindh. The portal aims to streamline administrative processes by providing easy access to frequently needed documents.
+
+## Current Resources
+
+- **Difference Bill (TR-22)**: Official form for Accountant General Sindh
+- **Difference Bill Cover Letter**: Template for submission
 
 ## Features
 
-- Modern, responsive design
-- Beautiful gradient UI
-- Mobile-friendly
-- Fast loading
-- Clean and maintainable code
+- Clean, professional design using official Sindh Government branding
+- Mobile-responsive layout
+- Easy document downloads
+- Compact and user-friendly interface
+- Professional Inter font for optimal readability
 
-## Getting Started
+## Usage
 
-Simply open `index.html` in your web browser to view the website locally.
-
-## Deployment
-
-This site can be easily deployed to:
-- GitHub Pages
-- Netlify
-- Vercel
-- Any static hosting service
+Visit [https://sindh-resources.github.io](https://sindh-resources.github.io) to access all resources.
 
 ## License
 
-© 2026 Sindh Resources. All rights reserved.
+© 2026 Government of Sindh. All rights reserved.
