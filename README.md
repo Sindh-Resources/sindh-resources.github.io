@@ -24,12 +24,19 @@ This website serves as a helpful repository of documents, forms, and resources f
 
 ### PST JEST 2021 - Service Continuation
 - **PST-JEST Advertisement**: Official recruitment advertisement
+- **PST Merit List**: Merit list for Hyderabad Division
+- **JEST STS Merit List**: JEST STS merit list for Hyderabad Division
 - **Checklist**: Requirements checklist
 - **Pay Protection Proforma**: Pay protection case form
 - **Application to Secretary**: Application template
 - **Certificates**: Certificate templates
 - **Data of Newly Appointed**: Excel data template
 - **Service Certificate**: Service certificate template
+
+### JEST to HST Promotion
+- **Seniority List Application**: Application to include name in seniority list
+- **Performance Evaluation (PER)**: PER form
+- **Required Certificates**: Certificate templates
 
 ## Features
 

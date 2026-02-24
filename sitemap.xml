@@ -64,6 +64,18 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sindh-resources.github.io/resources/pstjest2021/PST%20Merit%20List%20of%20Hyderabad%20Divsion.pdf</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sindh-resources.github.io/resources/pstjest2021/JEST%20STS%20Merit%20List%20of%20Hyderabad%20Division.pdf</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sindh-resources.github.io/resources/pstjest2021/servicecontinuation/1.%20Checklist.jpg</loc>
     <lastmod>2026-02-24</lastmod>
     <changefreq>monthly</changefreq>
@@ -95,6 +107,25 @@
   </url>
   <url>
     <loc>https://sindh-resources.github.io/resources/pstjest2021/servicecontinuation/Service%20Certificate.docx</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <!-- JEST to HST Promotion -->
+  <url>
+    <loc>https://sindh-resources.github.io/resources/jest-to-hst-promotion/Application%20to%20include%20name%20in%20seniority%20list.docx</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sindh-resources.github.io/resources/jest-to-hst-promotion/PER%20(Performance%20Evaluation).pdf</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sindh-resources.github.io/resources/jest-to-hst-promotion/Required%20Certificates.docx</loc>
     <lastmod>2026-02-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
