@@ -56,6 +56,25 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- BISEH Model Papers -->
+  <url>
+    <loc>https://sindh-resources.github.io/resources/biseh/Class%2010%20-%20Biology%20Model%20Paper%20-%202026.pdf</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sindh-resources.github.io/resources/biseh/Class%2010%20-%20English%20Model%20Paper%20-%202026.pdf</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sindh-resources.github.io/resources/biseh/Class%2010%20-%20Physics%20Model%20Paper%20-%202026.pdf</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- PST JEST 2021 -->
   <url>
     <loc>https://sindh-resources.github.io/resources/pstjest2021/PST-JEST%20Advertisement.jpg</loc>

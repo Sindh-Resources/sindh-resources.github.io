@@ -22,6 +22,12 @@ This website serves as a helpful repository of documents, forms, and resources f
 - **Class 7 Past Papers**: Question papers for Class 7
 - **Class 8 Past Papers**: Question papers for Class 8
 
+### BISEH - Model Papers
+Board of Intermediate and Secondary Education Hyderabad (Classes 9-12)
+- **Class 10 Biology**: Model Paper 2026
+- **Class 10 English**: Model Paper 2026
+- **Class 10 Physics**: Model Paper 2026
+
 ### PST JEST 2021 - Service Continuation
 - **PST-JEST Advertisement**: Official recruitment advertisement
 - **PST Merit List**: Merit list for Hyderabad Division
