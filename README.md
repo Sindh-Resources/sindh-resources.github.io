@@ -14,6 +14,7 @@ This website serves as a helpful repository of documents, forms, and resources f
 - **Difference Bill (TR-22)**: Official form for Accountant General Sindh
 - **Difference Bill Cover Letter**: Template for submission
 - **FO2 Form**: FO2 form for Accountant General Sindh
+ - **Arrears Maker Tool**: Excel arrears calculator for AG Sindh
 
 ### SELD - Past Papers
 - **Class 4 Past Papers**: Question papers for Class 4
@@ -39,6 +40,7 @@ Board of Intermediate and Secondary Education Hyderabad (Classes 9-12)
 - **Certificates**: Certificate templates
 - **Data of Newly Appointed**: Excel data template
 - **Service Certificate**: Service certificate template
+ - **Increment 2022 Arrear Tool**: Excel arrear calculator upto Jun-26
 
 ### JEST to HST Promotion
 - **Seniority List Application**: Application to include name in seniority list

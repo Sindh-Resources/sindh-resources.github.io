@@ -25,6 +25,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://sindh-resources.github.io/resources/agsindh/Arrears%20Maker%20V4.5.5%20(Adh%202025%20added)%20By%20Shariq.xlsm</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- SELD Past Papers -->
   <url>
     <loc>https://sindh-resources.github.io/resources/schoolpastpapers/Class%204%20-%20Past%20Papers.pdf</loc>
@@ -132,6 +138,12 @@
   </url>
   <url>
     <loc>https://sindh-resources.github.io/resources/pstjest2021/servicecontinuation/Service%20Certificate.docx</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sindh-resources.github.io/resources/pstjest2021/servicecontinuation/Increment%202022%20Arrear%20upto%20Jun-26%20(Delete%20extra%20rows).xlsm</loc>
     <lastmod>2026-02-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
